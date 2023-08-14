@@ -1,28 +1,10 @@
-import pymongo
+import mysql.connector as connection
 
-from pymongo.mongo_client import MongoClient
-
-uri = "mongodb+srv://princefrancis64:Oejb2e2l74Gz4NAK@cluster0.o5qm0dq.mongodb.net/?retryWrites=true&w=majority"
-
-# Create a new client and connect to the server
-client = MongoClient(uri)
-
-# Send a ping to confirm a successful connection
-try:
-    client.admin.command('ping')
-    print("Pinged your deployment. You successfully connected to MongoDB!")
-except Exception as e:
-    print(e)
-
-db =client.test
-print(db)
-
-d = {
-    "name":"prince",
-    "email":"prince.francis64@gmail.com",
-    "surname":"francis"
-}
-
-db1 = client['mongotest']
-coll = db1['test']
-coll.insert_one(d)
+mydb = connection.connect(host = "localhost" ,user = "root", passwd = "Letsgo1247")
+cursor = mydb.cursor()
+# cursor.execute("create database prince")
+# cursor.execute("show databases")
+# q1 = cursor.execute("create table prince.ineuron(employee_id int(10),emp_name varchar(80),emp_mailid varchar(20),emp_salary int(6),emp_attendance int(3))")
+# print(cursor.fetchall())
+q2 = cursor.execute("select * from prince.ineuron")
+print(q2)
