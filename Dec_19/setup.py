@@ -20,6 +20,6 @@ setup(
     version = "0.0.2",
     author = "Prince Francis",
     author_email="prince.francis64@gmail.com",
-    packagest = find_packages(),
-    installs = get_requirements()
+    packages = find_packages(),
+    install_requires = get_requirements()
 )
