@@ -19,8 +19,20 @@ from sensor.config import mongoclient
 #     print( traceback.format_exc())
 
 
-df = pd.DataFrame(mongoclient["aps"]["sensor"].find())
-print(df.head())
-print(type(df))
+# df = pd.DataFrame(mongoclient["aps"]["sensor"].find())
+# print(df.head())
+# print(type(df))
 
-# print(os.path.dirname(os.getcwd()))
+# # print(os.path.dirname(os.getcwd()))
+
+# def square_fun(n):
+#     x = [i*i for i in range(n)]
+#     return x
+
+# print(square_fun(7))
+
+
+df = pd.read_csv(r"C:\Users\Prince\Downloads\aps_failure_training_set1.csv")
+null_report = df.isna().sum()/df.shape[0]
+cols = null_report[null_report>0.2]
+cols

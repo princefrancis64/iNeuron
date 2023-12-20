@@ -1,0 +1,16 @@
+[2023-12-20 16:40:41,767 ] 15 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2023-12-20 16:40:41,768 ] 22 root - INFO - Exporting collection data as dataframe
+[2023-12-20 16:40:41,768 ] 19 root - INFO - Reading dataframe from mongodb database aps and collection sensor
+[2023-12-20 16:41:22,644 ] 21 root - INFO - Found columns Index(['_id', 'class', 'aa_000', 'ab_000', 'ac_000', 'ad_000', 'ae_000',
+       'af_000', 'ag_000', 'ag_001',
+       ...
+       'ee_002', 'ee_003', 'ee_004', 'ee_005', 'ee_006', 'ee_007', 'ee_008',
+       'ee_009', 'ef_000', 'eg_000'],
+      dtype='object', length=172)
+[2023-12-20 16:41:22,922 ] 24 root - INFO - Rows and columns in df:(36188, 171)
+[2023-12-20 16:41:24,110 ] 31 root - INFO - Creating feature store folder if not available
+[2023-12-20 16:41:24,110 ] 35 root - INFO - Save df to feature store folder
+[2023-12-20 16:41:26,117 ] 39 root - INFO - split the dataset into train and test dataset
+[2023-12-20 16:41:26,364 ] 43 root - INFO - Creating dataset directory folder if not available
+[2023-12-20 16:41:26,364 ] 48 root - INFO - Save df to dataset folder
+[2023-12-20 16:41:28,324 ] 60 root - INFO - Data Ingestion Artifact:DataIngestionArtifact(feature_store_file_path='C:\\Users\\Prince\\Desktop\\Practice\\iNeuron\\Dec_19\\artifact\\20122023__164041\\data ingestion\\feature_store\\sensor.csv', train_file_path='C:\\Users\\Prince\\Desktop\\Practice\\iNeuron\\Dec_19\\artifact\\20122023__164041\\data ingestion\\dataset\\train.csv', test_file_path='C:\\Users\\Prince\\Desktop\\Practice\\iNeuron\\Dec_19\\artifact\\20122023__164041\\data ingestion\\dataset\\test.csv')
