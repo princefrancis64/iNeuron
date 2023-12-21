@@ -25,7 +25,8 @@ if __name__=="__main__":
         print(data_transformation_config)
         data_transformation = DataTransformation(data_transformation_config=data_transformation_config,data_ingestion_artifact=data_ingestion_artifact)
         print(data_transformation)
-        # data_transformation_artifact = data_transformation.initiate_data_transformation() 
-        data_transformation.initiate_data_transformation()
+        data_transformation_artifact = data_transformation.initiate_data_transformation() 
+        
+        #model trainer
     except Exception as e:
         print(e)
