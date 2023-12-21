@@ -1,6 +1,5 @@
 import pymongo
 import os
-import json
 from dataclasses import dataclass
 
 

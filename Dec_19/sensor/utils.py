@@ -73,8 +73,13 @@ def save_object(file_path:str,obj:object):
     except Exception as e:
         raise SensorException(e,sys)
     
-# def load_object(file_path:str,obj:object):
-#     try:    
 
-#     except Exception as e:
-#         raise SensorException(e,sys)
+
+def load_numpy_array(file_path:str)->np.array:
+    try:
+        with open(file_path,"rb") as file_obj:
+            return np.load(file_obj)
+    except Exception as e:
+        raise SensorException(e,sys)
+    
+

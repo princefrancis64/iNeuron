@@ -96,7 +96,7 @@ class DataValidation:
             raise SensorException(e,sys)
         
     
-    def initiate_data_validation(self,)->artifact_entity.DataValidationArtifact:
+    def initiate_data_validation(self)->artifact_entity.DataValidationArtifact:
         try:
             logging.info(f"Reading base dataframe")
             base_df = pd.read_csv(self.data_validation_config.base_file_path)

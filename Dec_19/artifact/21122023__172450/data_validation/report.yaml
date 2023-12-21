@@ -1,0 +1,517 @@
+data_drift_within_train_dataset:
+  aa_000:
+    pvalues: 0.47706225243847233
+    same distribution: true
+  ac_000:
+    pvalues: 0.5673639947715461
+    same distribution: true
+  ae_000:
+    pvalues: 0.9999999999992113
+    same distribution: true
+  af_000:
+    pvalues: 0.9999999999913841
+    same distribution: true
+  ag_000:
+    pvalues: 1.0
+    same distribution: true
+  ag_001:
+    pvalues: 1.0
+    same distribution: true
+  ag_002:
+    pvalues: 1.0
+    same distribution: true
+  ag_003:
+    pvalues: 0.4708172249463001
+    same distribution: true
+  ag_004:
+    pvalues: 0.01669578390083862
+    same distribution: false
+  ag_005:
+    pvalues: 0.2531395963056
+    same distribution: true
+  ag_006:
+    pvalues: 0.62727572329022
+    same distribution: true
+  ag_007:
+    pvalues: 0.5833691250193962
+    same distribution: true
+  ag_008:
+    pvalues: 0.41908415223144824
+    same distribution: true
+  ag_009:
+    pvalues: 0.9038833933065012
+    same distribution: true
+  ah_000:
+    pvalues: 0.2316851604304605
+    same distribution: true
+  ai_000:
+    pvalues: 0.9999854923916432
+    same distribution: true
+  aj_000:
+    pvalues: 0.8435309847019408
+    same distribution: true
+  ak_000:
+    pvalues: 1.0
+    same distribution: true
+  al_000:
+    pvalues: 0.28464724894879245
+    same distribution: true
+  am_0:
+    pvalues: 0.3519376927137987
+    same distribution: true
+  an_000:
+    pvalues: 0.30193798265369365
+    same distribution: true
+  ao_000:
+    pvalues: 0.22960424334111196
+    same distribution: true
+  ap_000:
+    pvalues: 0.37234118832627316
+    same distribution: true
+  aq_000:
+    pvalues: 0.46368743613041197
+    same distribution: true
+  ar_000:
+    pvalues: 1.0
+    same distribution: true
+  as_000:
+    pvalues: 1.0
+    same distribution: true
+  at_000:
+    pvalues: 0.9999999538741209
+    same distribution: true
+  au_000:
+    pvalues: 1.0
+    same distribution: true
+  av_000:
+    pvalues: 0.28849312301267016
+    same distribution: true
+  ax_000:
+    pvalues: 0.10535680503474454
+    same distribution: true
+  ay_000:
+    pvalues: 1.0
+    same distribution: true
+  ay_001:
+    pvalues: 1.0
+    same distribution: true
+  ay_002:
+    pvalues: 1.0
+    same distribution: true
+  ay_003:
+    pvalues: 1.0
+    same distribution: true
+  ay_004:
+    pvalues: 1.0
+    same distribution: true
+  ay_005:
+    pvalues: 0.9978337151453738
+    same distribution: true
+  ay_006:
+    pvalues: 0.6889227184389146
+    same distribution: true
+  ay_007:
+    pvalues: 0.1239699114360453
+    same distribution: true
+  ay_008:
+    pvalues: 0.03859148555408021
+    same distribution: false
+  ay_009:
+    pvalues: 0.9999999996855299
+    same distribution: true
+  az_000:
+    pvalues: 0.0525624805374979
+    same distribution: true
+  az_001:
+    pvalues: 0.11151291726780255
+    same distribution: true
+  az_002:
+    pvalues: 0.14926556265254098
+    same distribution: true
+  az_003:
+    pvalues: 0.23198675533328095
+    same distribution: true
+  az_004:
+    pvalues: 0.5168239422279254
+    same distribution: true
+  az_005:
+    pvalues: 0.46552216120555934
+    same distribution: true
+  az_006:
+    pvalues: 0.6318849279521104
+    same distribution: true
+  az_007:
+    pvalues: 0.5602423715440505
+    same distribution: true
+  az_008:
+    pvalues: 0.9501061770151771
+    same distribution: true
+  az_009:
+    pvalues: 0.9999933910459157
+    same distribution: true
+  ba_000:
+    pvalues: 0.2573587283872508
+    same distribution: true
+  ba_001:
+    pvalues: 0.18940807224810108
+    same distribution: true
+  ba_002:
+    pvalues: 0.09150503357856088
+    same distribution: true
+  ba_003:
+    pvalues: 0.18902554276708727
+    same distribution: true
+  ba_004:
+    pvalues: 0.16636641212692793
+    same distribution: true
+  ba_005:
+    pvalues: 0.18823614876531625
+    same distribution: true
+  ba_006:
+    pvalues: 0.26047676762731786
+    same distribution: true
+  ba_007:
+    pvalues: 0.4391454600123639
+    same distribution: true
+  ba_008:
+    pvalues: 0.9882975698146316
+    same distribution: true
+  ba_009:
+    pvalues: 0.9849223666209896
+    same distribution: true
+  bb_000:
+    pvalues: 0.31989280629296823
+    same distribution: true
+  bc_000:
+    pvalues: 0.5102443476438003
+    same distribution: true
+  bd_000:
+    pvalues: 0.2833135640071861
+    same distribution: true
+  be_000:
+    pvalues: 0.7703421947795013
+    same distribution: true
+  bf_000:
+    pvalues: 0.4881436540083929
+    same distribution: true
+  bg_000:
+    pvalues: 0.24212858036124574
+    same distribution: true
+  bh_000:
+    pvalues: 0.507797742081133
+    same distribution: true
+  bi_000:
+    pvalues: 0.6819606505466862
+    same distribution: true
+  bj_000:
+    pvalues: 0.42904357869099485
+    same distribution: true
+  bs_000:
+    pvalues: 0.5961534508020043
+    same distribution: true
+  bt_000:
+    pvalues: 0.41036570528896077
+    same distribution: true
+  bu_000:
+    pvalues: 0.29960757470991195
+    same distribution: true
+  bv_000:
+    pvalues: 0.29960757470991195
+    same distribution: true
+  bx_000:
+    pvalues: 0.1950185520526776
+    same distribution: true
+  by_000:
+    pvalues: 0.32536843885945677
+    same distribution: true
+  bz_000:
+    pvalues: 0.9949440545111544
+    same distribution: true
+  ca_000:
+    pvalues: 0.3625867639782826
+    same distribution: true
+  cb_000:
+    pvalues: 0.6443774397290783
+    same distribution: true
+  cc_000:
+    pvalues: 0.2235886153697404
+    same distribution: true
+  cd_000:
+    pvalues: 1.0
+    same distribution: true
+  ce_000:
+    pvalues: 0.24084495256531813
+    same distribution: true
+  ci_000:
+    pvalues: 0.2504708305272262
+    same distribution: true
+  cj_000:
+    pvalues: 0.9999975454371344
+    same distribution: true
+  ck_000:
+    pvalues: 0.31986772633455407
+    same distribution: true
+  cl_000:
+    pvalues: 0.8222017018848629
+    same distribution: true
+  class:
+    pvalues: 0.9999999999972385
+    same distribution: true
+  cm_000:
+    pvalues: 0.6510695596318568
+    same distribution: true
+  cn_000:
+    pvalues: 1.0
+    same distribution: true
+  cn_001:
+    pvalues: 0.7036393950582094
+    same distribution: true
+  cn_002:
+    pvalues: 0.24215557233827678
+    same distribution: true
+  cn_003:
+    pvalues: 0.15030977619458308
+    same distribution: true
+  cn_004:
+    pvalues: 0.4015805438543182
+    same distribution: true
+  cn_005:
+    pvalues: 0.3463136544907547
+    same distribution: true
+  cn_006:
+    pvalues: 0.23770672576826646
+    same distribution: true
+  cn_007:
+    pvalues: 0.12647558686425087
+    same distribution: true
+  cn_008:
+    pvalues: 0.21704139027421654
+    same distribution: true
+  cn_009:
+    pvalues: 0.4578713510960568
+    same distribution: true
+  cp_000:
+    pvalues: 0.9084867270660062
+    same distribution: true
+  cq_000:
+    pvalues: 0.29960757470991195
+    same distribution: true
+  cs_000:
+    pvalues: 0.16493930800005574
+    same distribution: true
+  cs_001:
+    pvalues: 0.31387616080003744
+    same distribution: true
+  cs_002:
+    pvalues: 0.09660995195868693
+    same distribution: true
+  cs_003:
+    pvalues: 0.3920512251163941
+    same distribution: true
+  cs_004:
+    pvalues: 0.20989297986565536
+    same distribution: true
+  cs_005:
+    pvalues: 0.08948704155025167
+    same distribution: true
+  cs_006:
+    pvalues: 0.4947545800873231
+    same distribution: true
+  cs_007:
+    pvalues: 0.46196143474161877
+    same distribution: true
+  cs_008:
+    pvalues: 0.5506231455868802
+    same distribution: true
+  cs_009:
+    pvalues: 0.9999379444076061
+    same distribution: true
+  dd_000:
+    pvalues: 0.3177544032216827
+    same distribution: true
+  de_000:
+    pvalues: 0.2153262488128901
+    same distribution: true
+  df_000:
+    pvalues: 0.9999997559695771
+    same distribution: true
+  dg_000:
+    pvalues: 0.999968101334067
+    same distribution: true
+  dh_000:
+    pvalues: 0.9999999274090693
+    same distribution: true
+  di_000:
+    pvalues: 0.9999975086498232
+    same distribution: true
+  dj_000:
+    pvalues: 1.0
+    same distribution: true
+  dk_000:
+    pvalues: 1.0
+    same distribution: true
+  dl_000:
+    pvalues: 1.0
+    same distribution: true
+  dm_000:
+    pvalues: 1.0
+    same distribution: true
+  dn_000:
+    pvalues: 0.5111036866018557
+    same distribution: true
+  do_000:
+    pvalues: 0.608873160525161
+    same distribution: true
+  dp_000:
+    pvalues: 0.7863834622400662
+    same distribution: true
+  dq_000:
+    pvalues: 0.776981270619289
+    same distribution: true
+  dr_000:
+    pvalues: 0.8504955603270483
+    same distribution: true
+  ds_000:
+    pvalues: 0.5005176197573074
+    same distribution: true
+  dt_000:
+    pvalues: 0.40033097614659774
+    same distribution: true
+  du_000:
+    pvalues: 0.7605831040154971
+    same distribution: true
+  dv_000:
+    pvalues: 0.7983219547632219
+    same distribution: true
+  dx_000:
+    pvalues: 0.9647150003566285
+    same distribution: true
+  dy_000:
+    pvalues: 0.9999644038751556
+    same distribution: true
+  dz_000:
+    pvalues: 1.0
+    same distribution: true
+  ea_000:
+    pvalues: 1.0
+    same distribution: true
+  eb_000:
+    pvalues: 0.7811089399130371
+    same distribution: true
+  ec_00:
+    pvalues: 0.6334096570320842
+    same distribution: true
+  ed_000:
+    pvalues: 0.3896997692157822
+    same distribution: true
+  ee_000:
+    pvalues: 0.2530256060376508
+    same distribution: true
+  ee_001:
+    pvalues: 0.3098967708912699
+    same distribution: true
+  ee_002:
+    pvalues: 0.29987402990806766
+    same distribution: true
+  ee_003:
+    pvalues: 0.3607672200764588
+    same distribution: true
+  ee_004:
+    pvalues: 0.17771420581780506
+    same distribution: true
+  ee_005:
+    pvalues: 0.24130113471542003
+    same distribution: true
+  ee_006:
+    pvalues: 0.30495094302768544
+    same distribution: true
+  ee_007:
+    pvalues: 0.6496110114720735
+    same distribution: true
+  ee_008:
+    pvalues: 0.8165065661593882
+    same distribution: true
+  ee_009:
+    pvalues: 0.9806002807711925
+    same distribution: true
+  ef_000:
+    pvalues: 1.0
+    same distribution: true
+  eg_000:
+    pvalues: 1.0
+    same distribution: true
+missing values within base dataset:
+- ab_000
+- ad_000
+- bk_000
+- bl_000
+- bm_000
+- bn_000
+- bo_000
+- bp_000
+- bq_000
+- br_000
+- cf_000
+- cg_000
+- ch_000
+- co_000
+- cr_000
+- ct_000
+- cu_000
+- cv_000
+- cx_000
+- cy_000
+- cz_000
+- da_000
+- db_000
+- dc_000
+missing values within test dataset:
+- ab_000
+- ad_000
+- bk_000
+- bl_000
+- bm_000
+- bn_000
+- bo_000
+- bp_000
+- bq_000
+- br_000
+- cf_000
+- cg_000
+- ch_000
+- co_000
+- cr_000
+- ct_000
+- cu_000
+- cv_000
+- cx_000
+- cy_000
+- cz_000
+- da_000
+- db_000
+- dc_000
+missing values within train dataset:
+- ab_000
+- ad_000
+- bk_000
+- bl_000
+- bm_000
+- bn_000
+- bo_000
+- bp_000
+- bq_000
+- br_000
+- cf_000
+- cg_000
+- ch_000
+- co_000
+- cr_000
+- ct_000
+- cu_000
+- cv_000
+- cx_000
+- cy_000
+- cz_000
+- da_000
+- db_000
+- dc_000

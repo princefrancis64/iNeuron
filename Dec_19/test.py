@@ -32,7 +32,16 @@ from sensor.config import mongoclient
 # print(square_fun(7))
 
 
-df = pd.read_csv(r"C:\Users\Prince\Downloads\aps_failure_training_set1.csv")
-null_report = df.isna().sum()/df.shape[0]
-cols = null_report[null_report>0.2]
-cols
+# df = pd.read_csv(r"C:\Users\Prince\Downloads\aps_failure_training_set1.csv")
+# null_report = df.isna().sum()/df.shape[0]
+# cols = null_report[null_report>0.2]
+# cols
+import numpy as np
+
+file_path = r"C:\Users\Prince\Desktop\Practice\iNeuron\Dec_19\artifact\21122023__171243\data_transformation\transformed\train.npz"
+with open(file_path,"rb") as file_obj:
+    train_arr = np.load(file_obj)
+
+print(train_arr)
+print(train_arr.shape)
+
