@@ -29,17 +29,18 @@ class ModelEvaluation:
     def initiate_model_evaluation(self)->artifact_entity.ModelEvaluationArtifact:
         try:
             logging.info("if saved_models folder has saved model then we will compare it or else we will train new model and save it")
-            latest_dir_name = self.model_resolver.get_latest_dir_path()
-            if latest_dir_name==None:
+            latest_dir_path = self.model_resolver.get_latest_dir_path()
+            if latest_dir_path==None:
                 model_eval_artifact= artifact_entity.ModelEvaluationArtifact(is_model_accepted=True,improved_accuracy=None)
                 logging.info(f"Model Evaluation artifact is {model_eval_artifact}")
                 return model_eval_artifact
             
-            #Finding location of transformer, model and targer encoder
+            #Finding location of latest transformer, model and targer encoder in the saved_foler
             logging.info("Finding location of transformer,model and target_encoder")
-            transformer_path = self.model_resolver.get_latest_save_transformer_path()
+            transformer_path = self.model_resolver.get_latest_transformer_path()
             model_path = self.model_resolver.get_latest_model_path()
             target_encoder_path = self.model_resolver.get_latest_target_encoder_path()
+            print(target_encoder_path)
 
             logging.info("Loading the previously saved models,transformer and target_encoder in the latest file path")
             transformer = load_obj(file_path=transformer_path)
@@ -53,6 +54,9 @@ class ModelEvaluation:
 
             test_df = pd.read_csv(self.data_ingestion_artifact.test_file_path)
             target_df = test_df[TARGET_COLUMN]
+            print(target_df.head())
+            print(type(target_encoder))
+            print(target_encoder)
             y_true = target_encoder.transform(target_df)
 
             #accuracy using previously trained model

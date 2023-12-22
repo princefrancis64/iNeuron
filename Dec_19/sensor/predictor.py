@@ -23,7 +23,7 @@ class ModelResolver:
             dir_names = os.listdir(self.model_registry)
             dir_names =list(map(int,dir_names))
             latest_dir_name = max(dir_names)
-            return os.path.join(self.model_registry,str(latest_dir_name))
+            return os.path.join(self.model_registry,f"{latest_dir_name}")
         except Exception as e:
             raise SensorException(e,sys)
 
@@ -60,7 +60,7 @@ class ModelResolver:
             latest_dir = self.get_latest_dir_path()
             if latest_dir==None:
                 return os.path.join(self.model_registry,"0")
-            latest_dir_num = int(os.path.join.basename(self.get_latest_dir_path()))
+            latest_dir_num = int(os.path.basename(self.get_latest_dir_path()))
             return os.path.join(self.model_registry,f"{latest_dir_num+1}")
         except Exception as e:
             raise SensorException(e,sys)
