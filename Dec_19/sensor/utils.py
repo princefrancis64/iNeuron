@@ -82,4 +82,11 @@ def load_numpy_array(file_path:str)->np.array:
     except Exception as e:
         raise SensorException(e,sys)
     
-
+def load_obj(file_path:str)->object:
+    try:
+        if not os.path.exists(file_path):
+            raise Exception(f"The {file_path} do not exists")
+        with open(file_path,"rb") as file_obj:
+            return dill.load(file_obj)
+    except Exception as e:
+        raise SensorException(e,sys)
